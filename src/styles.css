@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200px;
+  width: 50%;
+}
+
+#user {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 3px solid orange;
+  background-color: rgba(255, 166, 0, 0.5);
+  width: 50%;
+}
+
+#loading {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 20%;
+}
