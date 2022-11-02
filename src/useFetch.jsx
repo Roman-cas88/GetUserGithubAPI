@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ThreeDots } from "react-loader-spinner";
+import { Dna } from "react-loader-spinner";
 import { User } from "./components";
 
 export function UseFetch() {
@@ -22,16 +22,14 @@ export function UseFetch() {
   if (loading) {
     return (
       <div id="loading">
-        <ThreeDots
-          height="100"
-          width="100"
-          radius="10"
-          color="orange"
-          ariaLabel="three-dots-loading"
-          wrapperStyle={{}}
-          wrapperClassName=""
-          visible={true}
-        />
+        <Dna
+        visible={true}
+        height="80"
+        width="80"
+        ariaLabel="dna-loading"
+        wrapperStyle={{}}
+        wrapperClass="dna-wrapper"
+/>
       </div>
     );
   }
